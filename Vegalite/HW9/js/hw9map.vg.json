@@ -30,7 +30,7 @@
             "field": "depth",
             "type": "quantitative",
             "title": "Depth in km",
-            "scale": {"scheme": "reds"}
+            "scale": {"scheme": "greens"}
           },
           "tooltip":
             [
