@@ -108,7 +108,7 @@
                     {"field":"LifeExpectancy","type":"quantitative","title":"Life Expectancy","format": ","},
                     {"field":"GDPPerCapita","type":"quantitative","title":"GDP Per Capita","format": ","},
                     {"field":"PopulationEstimates","type":"quantitative","title":"Population Estimates","format": ","},
-                    {"field":"Continent","type":"nominal","format": ","}
+                    {"field":"Continent","type":"nominal"}
                 ]
             }
         }
