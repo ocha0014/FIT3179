@@ -1,4 +1,4 @@
-Entity,Code,Year,LifeExpectancy,GDPPerCapita,PopulationEstimates,Continent
+Entity,Code,Year,Life-expectancy,GDP-per-capita,Population-estimates,Continent
 Abkhazia,OWID_ABK,2015,,,,Asia
 Afghanistan,AFG,2015,63.377,1928,33753500,Asia
 Akrotiri and Dhekelia,OWID_AKD,2015,,,,Asia
