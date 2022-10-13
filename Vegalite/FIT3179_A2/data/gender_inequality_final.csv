@@ -1,15 +1,29 @@
-Continent,Male,Female,Period
-Antarctica,0,0,B
-Antarctica,0,0,A
-Africa,65.39,42.75647059,B
-Africa,62.33726962,39.29193879,A
-North America,67.2372067,40.21921788,B
-North America,67.77836544,46.99637409,A
-Europe,64.52172524,43.80003195,B
-Europe,61.23446301,47.99839791,A
-South America,68.77758621,35.01482759,B
-South America,70.91335938,47.32609375,A
-Asia,73.68470588,41.09063348,B
-Asia,70.21207254,43.45769407,A
-Oceania,66.98068182,45.45613636,B
-Oceania,65.39517857,51.01125,A
+Continent,Period,Gender,EmployabilityRatio
+Africa,B,1,65.39
+Africa,A,1,62.33726962
+Africa,B,2,42.75647059
+Africa,A,2,39.29193879
+Antarctica,B,1,0
+Antarctica,A,1,0
+Antarctica,B,2,0
+Antarctica,A,2,0
+Asia,B,2,41.09063348
+Asia,A,2,43.45769407
+Asia,B,1,73.68470588
+Asia,A,1,70.21207254
+Europe,B,2,43.80003195
+Europe,A,2,47.99839791
+Europe,B,1,64.52172524
+Europe,A,1,61.23446301
+North America,B,2,40.21921788
+North America,A,2,46.99637409
+North America,B,1,67.2372067
+North America,A,1,67.77836544
+Oceania,B,2,45.45613636
+Oceania,A,2,51.01125
+Oceania,B,1,66.98068182
+Oceania,A,1,65.39517857
+South America,B,2,35.01482759
+South America,A,2,47.32609375
+South America,B,1,68.77758621
+South America,A,1,70.91335938
