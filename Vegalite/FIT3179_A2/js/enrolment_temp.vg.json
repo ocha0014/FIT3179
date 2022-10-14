@@ -1,0 +1,17 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/ocha0014/FIT3179/main/Vegalite/FIT3179_A2/data/edu_temp.csv"},
+    "width":400,
+    "title":"World Tertiary Education Enrolment Ratio 1970 - 2015",
+    "transform": [
+        {"filter": "datum.Continent != ''"}],
+    "mark": {
+      "type": "line",
+      "point": true
+    },
+    "encoding": {
+      "x": {"timeUnit": "year", "field": "Year"},
+      "y": {"aggregate":"mean", "field": "Ratio", "type": "quantitative","title":"Average Ratio"},
+      "color": {"field": "Continent", "type": "nominal"}
+    }
+  }
