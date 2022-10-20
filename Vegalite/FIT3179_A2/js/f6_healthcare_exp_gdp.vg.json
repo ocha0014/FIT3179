@@ -1,7 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title":"Healthcare expenditure as a share of GDP",
-    "width":"container",
     "params": [
         {
             "name":"Year_selection",
