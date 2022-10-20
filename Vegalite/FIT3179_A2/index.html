@@ -73,7 +73,7 @@
 
       <!-- pure grid group :Education Bar + Pyramid-->
     <div class="pure-g">
-        <div class="pure-u-1-3">
+        <div class="pure-u-1-3" style="width: 31.5%;">
             <div id="vis4" class="vis-container"></div> <!-- Vis 4 : f3-->
         </div>
         <div class="pure-u-1-3">
@@ -81,10 +81,14 @@
             <p>The bar chart on the left shows <b>the Government Expenditure on Tertiary Education by Continent.</b> 
                 Notice how the <b>latest period (After 2010)</b> usually has the <b>highest value.</b> 
                 We can say that governments are spending more on tertiary education.</p>
+            <p>Another interesting fact we observe is: <b>As more of the population are educated, 
+                the Gender Inequality Problem decreases! </b> The <b>Population Pyramid </b> on the right
+                shows how the <i>employability rate of women has </i> <b>significantly increased </b>
+                in most continents.</p>
         </div>
         
         <div class="pure-u-1-3" style="width: 31.5%;">
-          <div id="vis5" class="vis-container" style="margin-left: 15px;"></div>
+          <div id="vis5" class="vis-container" style="margin-left: 15px;"></div> <!-- Vis 4 : f3-->
         </div>
   
       </div>
@@ -96,16 +100,19 @@
 
     <script type="text/javascript">
         var specVis1 = "js/f1_world_income_map.vg.json";
-        vegaEmbed('#vis1', specVis1);
+        vegaEmbed('#vis1', specVis1,{ "actions": false });
 
         var specVis2 = "js/f8_hdi_slope.vg.json";
-        vegaEmbed('#vis2', specVis2);
+        vegaEmbed('#vis2', specVis2,{ "actions": false });
 
         var specVis3 = "js/f5_tertiary_enrolment_map.vg.json";
-        vegaEmbed('#vis3', specVis3);
+        vegaEmbed('#vis3', specVis3,{ "actions": false });
 
-        var specVis4 = "js/gender_inequality_pyramid.vg.json";
-        vegaEmbed('#vis4', specVis4);
+        var specVis4 = "js/f3_gov_spend_edu_cont.vg.json";
+        vegaEmbed('#vis4', specVis4,{ "actions": false });
+
+        var specVis5 = "js/f4_gender_inequality_pyramid.vg.json";
+        vegaEmbed('#vis5', specVis5,{ "actions": false });
 
     </script>
 </body>

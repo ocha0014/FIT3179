@@ -1,8 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title":"Gross enrollment ratio in tertiary education",
-    "width":650,
-    "height":300,
+    "width":"container",
     "params": [
         {
             "name":"Year_selection",

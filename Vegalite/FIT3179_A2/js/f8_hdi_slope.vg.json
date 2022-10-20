@@ -3,8 +3,7 @@
     "data": {"url": "https://raw.githubusercontent.com/ocha0014/FIT3179/main/Vegalite/FIT3179_A2/upload_data/new_hdi.csv"},
     "mark": {"type": "line","point":true},
     "title":"Historical Index of Human Development, 1870 to 2015",
-    "width": 250,
-    "height": 300,
+    "width": "container",
     "spacing":50,
     "transform": [
         {"filter": "datum.Continent != '' "},

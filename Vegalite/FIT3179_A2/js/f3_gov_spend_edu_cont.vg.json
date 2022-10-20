@@ -1,7 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width":400,
-    "height":200,
+    "width":"container",
     "title": "Total Education Expenditure (%) of GDP, by Period and Continents",
     "data": {
       "url": "https://raw.githubusercontent.com/ocha0014/FIT3179/main/Vegalite/FIT3179_A2/upload_data/government-expenditure-on-tertiary-education-by-continent-pie.csv"},
