@@ -1,0 +1,562 @@
+Country,Year,HDI,Continent
+Abkhazia,2015,,
+Afghanistan,1960,35.82000122,Asia
+Afghanistan,2015,7.040000153,Asia
+Africa,1960,,
+Africa,2015,,
+Akrotiri and Dhekelia,2015,,Asia
+Albania,2015,0.960000038,Europe
+Albania,1960,,Europe
+Algeria,1960,24.11000061,Africa
+Algeria,2015,2.520000076,Africa
+American Samoa,1960,,Oceania
+American Samoa,2015,,Oceania
+Andorra,2015,0.329999995,Europe
+Andorra,1960,,Europe
+Angola,2015,8.809999847,Africa
+Angola,1960,,Africa
+Anguilla,1960,,North America
+Anguilla,2015,,North America
+Antarctica,2015,,Antarctica
+Antigua and Barbuda,1960,8.630000305,North America
+Antigua and Barbuda,2015,0.780000019,North America
+Argentina,2015,1.15,South America
+Argentina,1960,,South America
+Armenia,2015,1.410000038,Asia
+Armenia,1960,,Asia
+Aruba,1960,,North America
+Aruba,2015,,North America
+Asia,1960,,
+Asia,2015,,
+Australia,1960,2.489999962,Oceania
+Australia,2015,0.39000001,Oceania
+Austria,1960,4.290000153,Europe
+Austria,2015,0.370000005,Europe
+Austria-Hungary,2015,,Europe
+Azerbaijan,2015,2.629999924,Asia
+Azerbaijan,1960,,Asia
+Baden,2015,,Europe
+Bahamas,2015,1.4,North America
+Bahamas,1960,,North America
+Bahrain,1960,19.78999939,Asia
+Bahrain,2015,0.75999999,Asia
+Bangladesh,1960,26.26000061,Asia
+Bangladesh,2015,3.809999847,Asia
+Barbados,1960,8.45,North America
+Barbados,2015,1.4,North America
+Bavaria,2015,,Europe
+Belarus,2015,0.40999999,Europe
+Belarus,1960,,Europe
+Belgium,1960,3.379999924,Europe
+Belgium,2015,0.40999999,Europe
+Belize,2015,1.530000019,North America
+Belize,1960,,North America
+Benin,1960,30.98999939,Africa
+Benin,2015,9.759999847,Africa
+Bermuda,1960,,North America
+Bermuda,2015,,North America
+Bhutan,2015,3.309999847,Asia
+Bhutan,1960,,Asia
+Bolivia,1960,29.08999939,South America
+Bolivia,2015,3.129999924,South America
+Bonaire Sint Eustatius and Saba,1960,,North America
+Bonaire Sint Eustatius and Saba,2015,,North America
+Bosnia and Herzegovina,2015,0.630000019,Europe
+Bosnia and Herzegovina,1960,,Europe
+Botswana,1960,16.81000061,Africa
+Botswana,2015,4.970000076,Africa
+Bouvet Island,2015,,Antarctica
+Brazil,1960,16.98000031,South America
+Brazil,2015,1.589999962,South America
+British Indian Ocean Territory,2015,,Asia
+British Virgin Islands,1960,,North America
+British Virgin Islands,2015,,North America
+Brunei,1960,12.24000015,Asia
+Brunei,2015,1.060000038,Asia
+Bulgaria,1960,5.540000153,Europe
+Bulgaria,2015,0.819999981,Europe
+Burkina Faso,1960,34.55,Africa
+Burkina Faso,2015,10.09000015,Africa
+Burundi,2015,6.759999847,Africa
+Burundi,1960,,Africa
+Cambodia,2015,3.179999924,Asia
+Cambodia,1960,,Asia
+Cameroon,1960,27.83999939,Africa
+Cameroon,2015,8.8,Africa
+Canada,1960,3.259999847,North America
+Canada,2015,0.54000001,North America
+Cape Verde,1960,18.05,Africa
+Cape Verde,2015,1.95,Africa
+Cayman Islands,1960,,North America
+Cayman Islands,2015,,North America
+Central African Republic,1960,28.02999878,Africa
+Central African Republic,2015,12.33000031,Africa
+Chad,2015,12.86999969,Africa
+Chad,1960,,Africa
+Channel Islands,2015,,Europe
+Chile,1960,15.71000061,South America
+Chile,2015,0.79000001,South America
+China,2015,1.069999981,Asia
+China,1960,,Asia
+Christmas Island,2015,,Asia
+Cocos Islands,2015,,Asia
+Colombia,1960,13.46000061,South America
+Colombia,2015,1.55,South America
+Comoros,2015,7.230000305,Africa
+Comoros,1960,,Africa
+Congo,1960,19.38999939,Africa
+Congo,2015,5.259999847,Africa
+Cook Islands,1960,,Oceania
+Cook Islands,2015,,Oceania
+Costa Rica,1960,9.6,North America
+Costa Rica,2015,0.910000038,North America
+Cote d'Ivoire,1960,31.78999939,Africa
+Cote d'Ivoire,2015,9.080000305,Africa
+Croatia,2015,0.49000001,Europe
+Croatia,1960,,Europe
+Cuba,1960,5.420000076,North America
+Cuba,2015,0.569999981,North America
+Curacao,1960,,North America
+Curacao,2015,,North America
+Cyprus,2015,0.29000001,Europe
+Cyprus,1960,,Europe
+Czechia,2015,0.320000005,Europe
+Czechia,1960,,Europe
+Czechoslovakia,2015,,Europe
+Democratic Republic of Congo,2015,9.590000153,Africa
+Democratic Republic of Congo,1960,,Africa
+Denmark,1960,2.5,Europe
+Denmark,2015,0.40999999,Europe
+Djibouti,2015,6.580000305,Africa
+Djibouti,1960,,Africa
+Dominica,1960,13.83000031,North America
+Dominica,2015,3.110000038,North America
+Dominican Republic,1960,14.75,North America
+Dominican Republic,2015,3.5,North America
+East Asia and Pacific,2015,1.7,
+East Germany,2015,,Europe
+Ecuador,1960,17.48000031,South America
+Ecuador,2015,1.539999962,South America
+Egypt,1960,31.83999939,Africa
+Egypt,2015,2.329999924,Africa
+El Salvador,1960,18.48999939,North America
+El Salvador,2015,1.55,North America
+Equatorial Guinea,2015,9.319999695,Africa
+Equatorial Guinea,1960,,Africa
+Eritrea,2015,4.629999924,Africa
+Eritrea,1960,,Africa
+Eritrea and Ethiopia,2015,,Africa
+Estonia,2015,0.30999999,Europe
+Estonia,1960,,Europe
+Eswatini,1960,20.88000031,Africa
+Eswatini,2015,5.720000076,Africa
+Ethiopia,2015,6.240000153,Africa
+Ethiopia,1960,,Africa
+Europe,1960,,
+Europe,2015,,
+Europe and Central Asia,2015,0.939999962,
+European Union,2015,0.425504065,
+Faeroe Islands,1960,,Europe
+Faeroe Islands,2015,,Europe
+Falkland Islands,1960,,South America
+Falkland Islands,2015,,South America
+Fiji,1960,7.859999847,Oceania
+Fiji,2015,2.439999962,Oceania
+Finland,1960,2.689999962,Europe
+Finland,2015,0.25,Europe
+France,1960,2.85,Europe
+France,2015,0.419999981,Europe
+French Guiana,1960,,South America
+French Guiana,2015,,South America
+French Polynesia,1960,,Oceania
+French Polynesia,2015,,Oceania
+French Southern Territories,2015,,Antarctica
+Gabon,1960,22.23999939,Africa
+Gabon,2015,5.029999924,Africa
+Gambia,1960,36.01000061,Africa
+Gambia,2015,5.979999924,Africa
+Georgia,2015,1.05,Asia
+Georgia,1960,,Asia
+Germany,2015,0.39000001,Europe
+Germany,1960,,Europe
+Ghana,1960,20.81999969,Africa
+Ghana,2015,5.459999847,Africa
+Gibraltar,1960,,Europe
+Gibraltar,2015,,Europe
+Greece,1960,4.579999924,Europe
+Greece,2015,0.44000001,Europe
+Greenland,1960,,North America
+Greenland,2015,,North America
+Grenada,1960,10.15999985,North America
+Grenada,2015,1.620000076,North America
+Guadeloupe,1960,,North America
+Guadeloupe,2015,,North America
+Guam,1960,,Oceania
+Guam,2015,,Oceania
+Guatemala,1960,22.11999969,North America
+Guatemala,2015,2.829999924,North America
+Guernsey,1960,,Europe
+Guernsey,2015,,Europe
+Guinea,1960,34.8,Africa
+Guinea,2015,10.73000031,Africa
+Guinea-Bissau,2015,9.209999847,Africa
+Guinea-Bissau,1960,,Africa
+Guyana,1960,9.2,South America
+Guyana,2015,3.309999847,South America
+Haiti,1960,28.98999939,North America
+Haiti,2015,6.990000153,North America
+Hanover,2015,,Europe
+Heard Island and McDonald Islands,2015,,Antarctica
+Hesse Electoral,2015,,Europe
+Hesse Grand Ducal,2015,,Europe
+High income,2015,0.530000019,
+High-income countries,1960,,
+High-income countries,2015,,
+Honduras,1960,20.83999939,North America
+Honduras,2015,1.920000076,North America
+Hong Kong,1960,,Asia
+Hong Kong,2015,,Asia
+Hungary,1960,5.409999847,Europe
+Hungary,2015,0.50999999,Europe
+Iceland,1960,2.15,Europe
+Iceland,2015,0.229999995,Europe
+India,1960,24.26000061,Asia
+India,2015,4.35,Asia
+Indonesia,1960,22.4,Asia
+Indonesia,2015,2.770000076,Asia
+Iran,2015,1.55,Asia
+Iran,1960,,Asia
+Iraq,1960,19.11999969,Asia
+Iraq,2015,2.970000076,Asia
+Ireland,1960,3.529999924,Europe
+Ireland,2015,0.370000005,Europe
+Isle of Man,1960,,Europe
+Isle of Man,2015,,Europe
+Israel,1960,4.2,Asia
+Israel,2015,0.39000001,Asia
+Italy,1960,5.190000153,Europe
+Italy,2015,0.35,Europe
+Jamaica,1960,8.3,North America
+Jamaica,2015,1.55,North America
+Japan,1960,3.970000076,Asia
+Japan,2015,0.270000005,Asia
+Jersey,1960,,Europe
+Jersey,2015,,Europe
+Jordan,1960,15.53999939,Asia
+Jordan,2015,1.75,Asia
+Kazakhstan,2015,1.189999962,Asia
+Kazakhstan,1960,,Asia
+Kenya,1960,19.71999969,Africa
+Kenya,2015,4.890000153,Africa
+Kiribati,1960,19.91000061,Oceania
+Kiribati,2015,5.759999847,Oceania
+Kosovo,1960,,Europe
+Kosovo,2015,,Europe
+Kuwait,1960,13.98999939,Asia
+Kuwait,2015,0.880000019,Asia
+Kyrgyzstan,2015,2.229999924,Asia
+Kyrgyzstan,1960,,Asia
+Laos,2015,5.379999924,Asia
+Laos,1960,,Asia
+Latin America and Caribbean,2015,1.829999924,
+Latvia,2015,0.5,Europe
+Latvia,1960,,Europe
+Lebanon,1960,7.609999847,Asia
+Lebanon,2015,0.830000019,Asia
+Lesotho,1960,18.73000031,Africa
+Lesotho,2015,9.459999847,Africa
+Liberia,1960,31.28999939,Africa
+Liberia,2015,8.830000305,Africa
+Libya,1960,27.66000061,Africa
+Libya,2015,1.330000019,Africa
+Liechtenstein,1960,,Europe
+Liechtenstein,2015,,Europe
+Lithuania,2015,0.49000001,Europe
+Lithuania,1960,,Europe
+Low and middle income,2015,4.645108414,
+Low income,2015,7.869999695,
+Low-income countries,1960,,
+Low-income countries,2015,,
+Lower middle income,2015,5.290000153,
+Lower-middle-income countries,1960,,
+Lower-middle-income countries,2015,,
+Luxembourg,1960,3.770000076,Europe
+Luxembourg,2015,0.279999995,Europe
+Macao,1960,,Asia
+Macao,2015,,Asia
+Madagascar,2015,5.9,Africa
+Madagascar,1960,,Africa
+Malawi,2015,5.329999924,Africa
+Malawi,1960,,Africa
+Malaysia,1960,9.390000153,Asia
+Malaysia,2015,0.810000038,Asia
+Maldives,2015,0.980000019,Asia
+Maldives,1960,,Asia
+Mali,2015,10.83000031,Africa
+Mali,1960,,Africa
+Malta,1960,4.029999924,Europe
+Malta,2015,0.65999999,Europe
+Marshall Islands,1960,12.10999985,Oceania
+Marshall Islands,2015,3.540000153,Oceania
+Martinique,1960,,North America
+Martinique,2015,,North America
+Mauritania,1960,25.28000031,Africa
+Mauritania,2015,8.269999695,Africa
+Mauritius,1960,10.43000031,Africa
+Mauritius,2015,1.45,Africa
+Mayotte,1960,,Africa
+Mayotte,2015,,Africa
+Mecklenburg Schwerin,2015,,Europe
+Mexico,1960,15.55,North America
+Mexico,2015,1.620000076,North America
+Micronesia (country),1960,12.54000015,Oceania
+Micronesia (country),2015,2.889999962,Oceania
+Middle East and North Africa,2015,2.489999962,
+Middle income,2015,3.999051285,
+Modena,2015,,Europe
+Moldova,2015,1.580000019,Europe
+Moldova,1960,,Europe
+Monaco,2015,0.35,Europe
+Monaco,1960,,Europe
+Mongolia,2015,1.939999962,Asia
+Mongolia,1960,,Asia
+Montenegro,2015,0.4,Europe
+Montenegro,1960,,Europe
+Montserrat,1960,,North America
+Montserrat,2015,,North America
+Morocco,1960,24.18000031,Africa
+Morocco,2015,2.35,Africa
+Mozambique,2015,8.4,Africa
+Mozambique,1960,,Africa
+Myanmar,2015,5.220000076,Asia
+Myanmar,1960,,Asia
+Nagorno-Karabakh,2015,,Asia
+Namibia,2015,4.759999847,Africa
+Namibia,1960,,Africa
+Nauru,2015,3.320000076,Oceania
+Nauru,1960,,Oceania
+Nepal,1960,32.51000061,Asia
+Nepal,2015,3.55,Asia
+Netherlands,1960,2.079999924,Europe
+Netherlands,2015,0.4,Europe
+Netherlands Antilles,1960,,North America
+Netherlands Antilles,2015,,North America
+New Caledonia,1960,,Oceania
+New Caledonia,2015,,Oceania
+New Zealand,1960,2.789999962,Oceania
+New Zealand,2015,0.55,Oceania
+Nicaragua,1960,19.75,North America
+Nicaragua,2015,1.939999962,North America
+Niger,2015,9.380000305,Africa
+Niger,1960,,Africa
+Nigeria,2015,12.64000015,Africa
+Nigeria,1960,,Africa
+Niue,1960,,Oceania
+Niue,2015,,Oceania
+Norfolk Island,2015,,Oceania
+North America,2015,0.669999981,
+North America,1960,,
+North Korea,2015,2.110000038,Asia
+North Korea,1960,,Asia
+North Macedonia,2015,1.139999962,Europe
+North Macedonia,1960,,Europe
+Northern Cyprus,2015,,Asia
+Northern Mariana Islands,1960,,Oceania
+Northern Mariana Islands,2015,,Oceania
+Norway,1960,2.260000038,Europe
+Norway,2015,0.270000005,Europe
+Oceania,1960,,
+Oceania,2015,,
+Oman,1960,36.96000061,Asia
+Oman,2015,1.119999981,Asia
+Pakistan,1960,25.2,Asia
+Pakistan,2015,7.6,Asia
+Palau,2015,1.979999924,Oceania
+Palau,1960,,Oceania
+Palestine,2015,1.920000076,Asia
+Palestine,1960,,Asia
+Panama,1960,9.169999695,North America
+Panama,2015,1.7,North America
+Papua New Guinea,1960,19.76999969,Oceania
+Papua New Guinea,2015,5.1,Oceania
+Paraguay,1960,8.230000305,South America
+Paraguay,2015,2.229999924,South America
+Parma,2015,,Europe
+Peru,1960,22.85,South America
+Peru,2015,1.569999981,South America
+Philippines,1960,10.26999969,Asia
+Philippines,2015,2.960000038,Asia
+Pitcairn,2015,,Oceania
+Poland,1960,6.509999847,Europe
+Poland,2015,0.49000001,Europe
+Portugal,1960,11.45999985,Europe
+Portugal,2015,0.35999999,Europe
+Puerto Rico,1960,,North America
+Puerto Rico,2015,,North America
+Qatar,2015,0.780000019,Asia
+Qatar,1960,,Asia
+Republic of Vietnam,2015,,Asia
+Reunion,1960,,Africa
+Reunion,2015,,Africa
+Romania,1960,8.640000153,Europe
+Romania,2015,0.919999981,Europe
+Russia,2015,0.819999981,Europe
+Russia,1960,,Europe
+Rwanda,1960,22.1,Africa
+Rwanda,2015,4.770000076,Africa
+Saint Barthelemy,1960,,
+Saint Barthelemy,2015,,
+Saint Barthélemy,2015,,North America
+Saint Helena,1960,,Africa
+Saint Helena,2015,,Africa
+Saint Kitts and Nevis,2015,1.689999962,North America
+Saint Kitts and Nevis,1960,,North America
+Saint Lucia,1960,16.4,North America
+Saint Lucia,2015,2.189999962,North America
+Saint Martin (French part),1960,,North America
+Saint Martin (French part),2015,,North America
+Saint Martin (French part),2015,,North America
+Saint Pierre and Miquelon,1960,,North America
+Saint Pierre and Miquelon,2015,,North America
+Saint Vincent and the Grenadines,1960,17.46000061,North America
+Saint Vincent and the Grenadines,2015,1.670000076,North America
+Samoa,1960,10.69000015,Oceania
+Samoa,2015,1.860000038,Oceania
+San Marino,2015,0.220000005,Europe
+San Marino,1960,,Europe
+Sao Tome and Principe,2015,2.310000038,Africa
+Sao Tome and Principe,1960,,Africa
+Saudi Arabia,2015,0.910000038,Asia
+Saudi Arabia,1960,,Asia
+Saxony,2015,,Europe
+Senegal,1960,29.62999878,Africa
+Senegal,2015,4.940000153,Africa
+Serbia,2015,0.630000019,Europe
+Serbia,1960,,Europe
+Serbia and Montenegro,2015,,Europe
+Serbia excluding Kosovo,2015,,Europe
+Seychelles,1960,10.45,Africa
+Seychelles,2015,1.480000019,Africa
+Sierra Leone,1960,39,Africa
+Sierra Leone,2015,14.01999969,Africa
+Singapore,1960,4.770000076,Asia
+Singapore,2015,0.270000005,Asia
+Sint Maarten (Dutch part),1960,,North America
+Sint Maarten (Dutch part),2015,,North America
+Slovakia,2015,0.619999981,Europe
+Slovakia,1960,,Europe
+Slovenia,2015,0.25999999,Europe
+Slovenia,1960,,Europe
+Solomon Islands,1960,17.06999969,Oceania
+Solomon Islands,2015,2.270000076,Oceania
+Somalia,2015,13.43000031,Africa
+Somalia,1960,,Africa
+Somaliland,2015,,Africa
+South Africa,2015,3.629999924,Africa
+South Africa,1960,,Africa
+South America,1960,,
+South America,2015,,
+South Asia,2015,4.879999924,
+South Georgia and the South Sandwich Islands,2015,,South America
+South Korea,1960,11.19000015,Asia
+South Korea,2015,0.35,Asia
+South Ossetia,2015,,Asia
+South Sudan,1960,35.23999939,Africa
+South Sudan,2015,9.790000153,Africa
+Spain,2015,0.329999995,Europe
+Spain,1960,,Europe
+Sri Lanka,1960,9.390000153,Asia
+Sri Lanka,2015,0.869999981,Asia
+Sub-Saharan Africa,2015,8.540000153,
+Sudan,1960,17.66999969,Africa
+Sudan,2015,6.590000153,Africa
+Suriname,2015,2.029999924,South America
+Suriname,1960,,South America
+Svalbard and Jan Mayen,1960,,Europe
+Svalbard and Jan Mayen,2015,,Europe
+Sweden,1960,1.960000038,Europe
+Sweden,2015,0.29000001,Europe
+Switzerland,1960,2.65,Europe
+Switzerland,2015,0.430000019,Europe
+Syria,1960,17,Asia
+Syria,2015,4.159999847,Asia
+Taiwan,1960,,Asia
+Taiwan,2015,,Asia
+Tajikistan,2015,3.75,Asia
+Tajikistan,1960,,Asia
+Tanzania,1960,24.16000061,Africa
+Tanzania,2015,5.809999847,Africa
+Thailand,1960,14.66000061,Asia
+Thailand,2015,1.080000019,Asia
+Timor,2015,5.020000076,Asia
+Timor,1960,,Asia
+Togo,1960,26.12000122,Africa
+Togo,2015,7.590000153,Africa
+Tokelau,1960,,Oceania
+Tokelau,2015,,Oceania
+Tonga,2015,1.239999962,Oceania
+Tonga,1960,,Oceania
+Transnistria,2015,,Europe
+Trinidad and Tobago,1960,6.780000305,North America
+Trinidad and Tobago,2015,1.929999924,North America
+Tunisia,2015,1.720000076,Africa
+Tunisia,1960,,Africa
+Turkey,1960,25.7,Asia
+Turkey,2015,1.3,Asia
+Turkmenistan,2015,4.220000076,Asia
+Turkmenistan,1960,,Asia
+Turks and Caicos Islands,1960,,North America
+Turks and Caicos Islands,2015,,North America
+Tuscany,2015,,Europe
+Tuvalu,1960,16.96000061,Oceania
+Tuvalu,2015,2.6,Oceania
+Two Sicilies,2015,,Europe
+USSR,2015,,Europe
+Uganda,1960,22.28999939,Africa
+Uganda,2015,5.570000076,Africa
+Ukraine,2015,0.95,Europe
+Ukraine,1960,,Europe
+United Arab Emirates,1960,19.8,Asia
+United Arab Emirates,2015,0.75999999,Asia
+United Kingdom,1960,2.660000038,Europe
+United Kingdom,2015,0.45,Europe
+United Korea,2015,,Asia
+United States,1960,3.010000038,North America
+United States,2015,0.680000019,North America
+United States Minor Outlying Islands,2015,,Oceania
+United States Virgin Islands,1960,,North America
+United States Virgin Islands,2015,,North America
+Upper middle income,2015,1.410000038,
+Upper-middle-income countries,1960,,
+Upper-middle-income countries,2015,,
+Uruguay,1960,6.35,South America
+Uruguay,2015,0.889999962,South America
+Uzbekistan,2015,1.929999924,Asia
+Uzbekistan,1960,,Asia
+Vanuatu,1960,15.21000061,Oceania
+Vanuatu,2015,2.820000076,Oceania
+Vatican,1960,,Europe
+Vatican,2015,,Europe
+Venezuela,1960,7.959999847,South America
+Venezuela,2015,1.910000038,South America
+Vietnam,2015,2.179999924,Asia
+Vietnam,1960,,Asia
+Wallis and Futuna,1960,,Oceania
+Wallis and Futuna,2015,,Oceania
+West Germany,2015,,Europe
+Western Sahara,1960,,Africa
+Western Sahara,2015,,Africa
+World,2015,4.259999847,
+World,1960,,
+Wuerttemburg,2015,,Europe
+Yemen,1960,42.97000122,Asia
+Yemen,2015,6.070000076,Asia
+Yemen Arab Republic,2015,,Asia
+Yemen People's Republic,2015,,Asia
+Yugoslavia,2015,,Europe
+Zambia,1960,20.45,Africa
+Zambia,2015,6.769999695,Africa
+Zanzibar,2015,,Africa
+Zimbabwe,1960,15.08999939,Africa
+Zimbabwe,2015,6.129999924,Africa
+Åland Islands,2015,,Europe
