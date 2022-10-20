@@ -29,75 +29,63 @@
         <div class="pure-g">
         <div class="pure-u-1-1">
           <h1 style="text-align:center">World Income, Education and Health</h1>
-          <p style="text-align:center">World Economics is very important in our lives, it usually contains 
-            useful information for data analysis. Income is one of the 
-            most interesting topic of all time. In 1978, the first World Development 
-            Report introduced groupings of "low income" and "middle income" countries.
-            In the 1983 WDR, the "middle income group" was split into "lower middle" and "upper middle" groups, 
-            and in 1989 a "high income" country definition was introduced.</p>
+          <p style="text-align:center">World Economics useful information for data analysis. Income is one</p>
+          <p style="text-align:center">of the most interesting topic of all time. In 1978, </p>
+          <p style="text-align:center">the first World Development Report introduced groupings of <i>"low income"</i> and</p>
+          <p style="text-align:center"><i>"middle income"</i> countries. In the 1983 WDR, the </p>
+          <p style="text-align:center">"middle income group" was split into <i>"lower middle" and </i></p>
+          <p style="text-align:center"><i>"upper middle"</i>groups. and in 1989 a <i>"high income"</i> country</p>
+          <p style="text-align:center">definition was introduced.</p>
         </div>
         </div>
         <!-- end pure grid group -->
         <br>
 
+        <!-- pure grid group : World & HDI-->
+        <div class="pure-g">
+        <div class="pure-u-2-3">
+        <p>Here is a map that shows <b>Income Classifications</b> for counries.</p> 
+          <div id="vis1" class="vis-container"></div>  <!-- Vis 1 : f1-->
+        </div>
+        <div class="pure-u-1-3">
+            <div id="vis2" class="vis-container"></div>  <!-- Vis 2 : f8-->
+          </div>
+        </div>
+  
+      </div>
+      <!-- end pure grid group -->
 
-        <hr class="hr3">
-
-            <h2>Graph 2</h2>
-            <!-- pure grid group -->
-            <div class="pure-g">
-                <div class="pure-u-1-1">
-                    <div id="vis2" class="vis-container"></div>
-                    <p>This graph shows the relationship between <b>GDP and Life Expectancy</b>,
-                        We can see that it has a <b>positive correlation</b>.</p>
-                </div>
-                
+      <!-- pure grid group : World conclusion + Education Map-->
+    <div class="pure-g">
+        <div class="pure-u-1-3">
+            <div class="description description-left">
+              <h2>Income and Education</h2>
+              <p>Now we know that World Income has been <b>increasing</b> as <b>green colour increases</b>, 
+                we can see how it affects education rate.
+                The map on the right shows <b>the Enrollment Ratio in Tertiary Education</b>.
+                Take note how the <b>purple gets darker through the years.</b>
+                You can <b>zoom</b> in to <b><i>Selected Continents</i></b> for a closer view.</p>
             </div>
-            <!-- end pure grid group -->
-            <br>
+        </div>
+        <div class="pure-u-2-3">
+          <div id="vis3" class="vis-container"></div> <!-- Vis 3 : f5-->
+        </div>
+      </div>
+      <!-- end pure grid group -->
 
-            <hr class="hr3">
 
-
-            <h2>Graph 3</h2>
-            <!-- pure grid group -->
-            <div class="pure-g">
-                <div class="pure-u-1-1">
-                    <div id="vis3" class="vis-container"></div>
-                    <p>This graph shows the enrolment rate of <b>tertiary education</b>,
-                        We can see that it is <b>increasing</b>.</p>
-                </div>
-            </div>
-            <!-- end pure grid group -->
-            <br>
-
-            <hr class="hr3">
-
-            <h2>Graph 4</h2>
-            <!-- pure grid group -->
-            <div class="pure-g">
-                <div class="pure-u-1-1">
-                    <div id="vis4" class="vis-container"></div>
-                    <p>This is the population pyramid chart of employability, 
-                        comparing the employability ratio <b>before and after 2000.</b> 
-                        This is to show the <b>effect of education</b>.</p>
-                </div>
-            </div>
-            <!-- end pure grid group -->
-
-            <hr class="hr3">
 
     </div> <!-- end page -->
 
 
     <script type="text/javascript">
-        var specVis1 = "js/world_income_map.vg.json";
+        var specVis1 = "js/f1_world_income_map.vg.json";
         vegaEmbed('#vis1', specVis1);
 
-        var specVis2 = "js/gdp_lifeExp_bubble.vg.json";
+        var specVis2 = "js/f8_hdi_slope.vg.json";
         vegaEmbed('#vis2', specVis2);
 
-        var specVis3 = "js/enrolment_temp.vg.json";
+        var specVis3 = "js/f5_tertiary_enrolment_map.vg.json";
         vegaEmbed('#vis3', specVis3);
 
         var specVis4 = "js/gender_inequality_pyramid.vg.json";
