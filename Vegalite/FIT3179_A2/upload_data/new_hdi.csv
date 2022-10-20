@@ -1,0 +1,303 @@
+Country,Year,HDI,Continent
+Afghanistan,1960,0.06,Asia
+Afghanistan,2015,0.25,Asia
+Albania,1960,0.27,Europe
+Albania,2015,0.59,Europe
+Algeria,1960,0.15,Africa
+Algeria,2015,0.45,Africa
+Angola,1960,0.06,Africa
+Angola,2015,0.27,Africa
+Argentina,1960,0.38,South America
+Argentina,2015,0.7,South America
+Armenia,2015,0.58,Asia
+Australia,1960,0.51,Oceania
+Australia,2015,0.89,Oceania
+Austria,1960,0.46,Europe
+Austria,2015,0.79,Europe
+Azerbaijan,2015,0.52,Asia
+Bahamas,1960,0.37,North America
+Bahamas,2015,0.58,North America
+Bahrain,1960,0.25,Asia
+Bahrain,2015,0.57,Asia
+Bangladesh,1960,0.1,Asia
+Bangladesh,2015,0.33,Asia
+Barbados,1960,0.4,North America
+Barbados,2015,0.66,North America
+Belarus,2015,0.67,Europe
+Belgium,1960,0.48,Europe
+Belgium,2015,0.84,Europe
+Belize,1960,0.28,North America
+Belize,2015,0.43,North America
+Benin,1960,0.09,Africa
+Benin,2015,0.26,Africa
+Bolivia,1960,0.15,South America
+Bolivia,2015,0.47,South America
+Botswana,1960,0.12,Africa
+Botswana,2015,0.4,Africa
+Brazil,1960,0.23,South America
+Brazil,2015,0.54,South America
+Brunei,2015,0.58,Asia
+Bulgaria,1960,0.38,Europe
+Bulgaria,2015,0.59,Europe
+Burkina Faso,1960,0.06,Africa
+Burkina Faso,2015,0.22,Africa
+Burundi,1960,0.09,Africa
+Burundi,2015,0.25,Africa
+Cambodia,1960,0.14,Asia
+Cambodia,2015,0.37,Asia
+Cameroon,1960,0.1,Africa
+Cameroon,2015,0.28,Africa
+Canada,1960,0.53,North America
+Canada,2015,0.88,North America
+Cape Verde,1960,0.14,Africa
+Cape Verde,2015,0.46,Africa
+Central African Republic,1960,0.1,Africa
+Central African Republic,2015,0.16,Africa
+Chad,1960,0.06,Africa
+Chad,2015,0.19,Africa
+Chile,1960,0.32,South America
+Chile,2015,0.74,South America
+China,1960,0.15,Asia
+China,2015,0.54,Asia
+Colombia,1960,0.24,South America
+Colombia,2015,0.55,South America
+Comoros,2015,0.28,Africa
+Congo,1960,0.13,Africa
+Congo,2015,0.34,Africa
+Costa Rica,1960,0.31,North America
+Costa Rica,2015,0.67,North America
+Cote d'Ivoire,1960,0.1,Africa
+Cote d'Ivoire,2015,0.22,Africa
+Croatia,2015,0.63,Europe
+Cuba,1960,0.33,North America
+Cuba,2015,0.64,North America
+Cyprus,1960,0.36,Europe
+Cyprus,2015,0.66,Europe
+Czechia,1960,0.47,Europe
+Czechia,2015,0.68,Europe
+Democratic Republic of Congo,1960,0.12,Africa
+Democratic Republic of Congo,2015,0.22,Africa
+Denmark,1960,0.49,Europe
+Denmark,2015,0.83,Europe
+Djibouti,1960,0.1,Africa
+Djibouti,2015,0.26,Africa
+Dominican Republic,1960,0.23,North America
+Dominican Republic,2015,0.49,North America
+Ecuador,1960,0.24,South America
+Ecuador,2015,0.55,South America
+Egypt,1960,0.16,Africa
+Egypt,2015,0.41,Africa
+El Salvador,1960,0.2,North America
+El Salvador,2015,0.45,North America
+Equatorial Guinea,1960,0.13,Africa
+Equatorial Guinea,2015,0.4,Africa
+Eritrea,1960,0.06,Africa
+Eritrea,2015,0.26,Africa
+Estonia,2015,0.73,Europe
+Eswatini,1960,0.13,Africa
+Eswatini,2015,0.3,Africa
+Ethiopia,1960,0.05,Africa
+Ethiopia,2015,0.26,Africa
+Finland,1960,0.47,Europe
+Finland,2015,0.84,Europe
+France,1960,0.49,Europe
+France,2015,0.82,Europe
+Gabon,1960,0.15,Africa
+Gabon,2015,0.4,Africa
+Gambia,1960,0.06,Africa
+Gambia,2015,0.25,Africa
+Georgia,2015,0.58,Asia
+Germany,1960,0.47,Europe
+Germany,2015,0.8,Europe
+Ghana,1960,0.15,Africa
+Ghana,2015,0.33,Africa
+Greece,1960,0.35,Europe
+Greece,2015,0.75,Europe
+Guatemala,1960,0.16,North America
+Guatemala,2015,0.41,North America
+Guinea,1960,0.06,Africa
+Guinea,2015,0.19,Africa
+Guinea-Bissau,1960,0.07,Africa
+Guinea-Bissau,2015,0.23,Africa
+Guyana,1960,0.3,South America
+Guyana,2015,0.39,South America
+Haiti,1960,0.12,North America
+Haiti,2015,0.25,North America
+Honduras,1960,0.18,North America
+Honduras,2015,0.43,North America
+Hong Kong,1960,0.31,Asia
+Hong Kong,2015,0.8,Asia
+Hungary,1960,0.43,Europe
+Hungary,2015,0.62,Europe
+Iceland,2015,0.9,Europe
+India,1960,0.14,Asia
+India,2015,0.38,Asia
+Indonesia,1960,0.15,Asia
+Indonesia,2015,0.47,Asia
+Iran,1960,0.15,Asia
+Iran,2015,0.51,Asia
+Iraq,1960,0.17,Asia
+Iraq,2015,0.35,Asia
+Ireland,1960,0.46,Europe
+Ireland,2015,0.85,Europe
+Israel,1960,0.43,Asia
+Israel,2015,0.81,Asia
+Italy,1960,0.39,Europe
+Italy,2015,0.81,Europe
+Jamaica,1960,0.33,North America
+Jamaica,2015,0.48,North America
+Japan,1960,0.45,Asia
+Japan,2015,0.83,Asia
+Jordan,1960,0.2,Asia
+Jordan,2015,0.52,Asia
+Kazakhstan,2015,0.58,Asia
+Kenya,1960,0.14,Africa
+Kenya,2015,0.31,Africa
+Kuwait,1960,0.3,Asia
+Kuwait,2015,0.54,Asia
+Kyrgyzstan,2015,0.49,Asia
+Laos,1960,0.11,Asia
+Laos,2015,0.36,Asia
+Latvia,2015,0.63,Europe
+Lebanon,1960,0.26,Asia
+Lebanon,2015,0.51,Asia
+Lesotho,1960,0.15,Africa
+Lesotho,2015,0.28,Africa
+Liberia,1960,0.1,Africa
+Liberia,2015,0.24,Africa
+Libya,1960,0.16,Africa
+Libya,2015,0.45,Africa
+Lithuania,2015,0.65,Europe
+Madagascar,1960,0.14,Africa
+Madagascar,2015,0.27,Africa
+Malawi,1960,0.11,Africa
+Malawi,2015,0.28,Africa
+Malaysia,1960,0.23,Asia
+Malaysia,2015,0.52,Asia
+Mali,1960,0.06,Africa
+Mali,2015,0.21,Africa
+Malta,2015,0.63,Europe
+Mauritania,1960,0.06,Africa
+Mauritania,2015,0.25,Africa
+Mauritius,1960,0.28,Africa
+Mauritius,2015,0.54,Africa
+Mexico,1960,0.26,North America
+Mexico,2015,0.54,North America
+Moldova,2015,0.5,Europe
+Mongolia,2015,0.5,Asia
+Morocco,1960,0.13,Africa
+Morocco,2015,0.42,Africa
+Mozambique,1960,0.1,Africa
+Mozambique,2015,0.28,Africa
+Myanmar,1960,0.15,Asia
+Myanmar,2015,0.39,Asia
+Namibia,1960,0.14,Africa
+Namibia,2015,0.41,Africa
+Nepal,1960,0.08,Asia
+Nepal,2015,0.34,Asia
+Netherlands,1960,0.51,Europe
+Netherlands,2015,0.86,Europe
+New Zealand,1960,0.53,Oceania
+New Zealand,2015,0.86,Oceania
+Nicaragua,1960,0.19,North America
+Nicaragua,2015,0.42,North America
+Niger,1960,0.04,Africa
+Niger,2015,0.17,Africa
+Nigeria,1960,0.1,Africa
+Nigeria,2015,0.26,Africa
+North Macedonia,2015,0.51,Europe
+Norway,1960,0.5,Europe
+Norway,2015,0.84,Europe
+Oman,1960,0.1,Asia
+Oman,2015,0.53,Asia
+Pakistan,1960,0.11,Asia
+Pakistan,2015,0.29,Asia
+Panama,1960,0.29,North America
+Panama,2015,0.57,North America
+Paraguay,1960,0.29,South America
+Paraguay,2015,0.48,South America
+Peru,1960,0.23,South America
+Peru,2015,0.53,South America
+Philippines,1960,0.25,Asia
+Philippines,2015,0.46,Asia
+Poland,1960,0.41,Europe
+Poland,2015,0.67,Europe
+Portugal,1960,0.29,Europe
+Portugal,2015,0.75,Europe
+Puerto Rico,1960,0.4,North America
+Puerto Rico,2015,0.62,North America
+Qatar,1960,0.26,Asia
+Qatar,2015,0.63,Asia
+Romania,1960,0.34,Europe
+Romania,2015,0.57,Europe
+Russia,1960,0.42,Europe
+Russia,2015,0.57,Europe
+Rwanda,1960,0.11,Africa
+Rwanda,2015,0.33,Africa
+Saint Kitts and Nevis,2015,0.59,North America
+Saint Vincent and the Grenadines,2015,0.55,North America
+Saudi Arabia,1960,0.09,Asia
+Saudi Arabia,2015,0.5,Asia
+Senegal,1960,0.09,Africa
+Senegal,2015,0.28,Africa
+Serbia,1960,0.33,Europe
+Serbia,2015,0.54,Europe
+Seychelles,2015,0.51,Africa
+Sierra Leone,1960,0.07,Africa
+Sierra Leone,2015,0.2,Africa
+Singapore,1960,0.3,Asia
+Singapore,2015,0.82,Asia
+Slovakia,2015,0.62,Europe
+Slovenia,2015,0.77,Europe
+South Africa,1960,0.23,Africa
+South Africa,2015,0.38,Africa
+South Korea,1960,0.25,Asia
+South Korea,2015,0.85,Asia
+Spain,1960,0.38,Europe
+Spain,2015,0.85,Europe
+Sri Lanka,1960,0.29,Asia
+Sri Lanka,2015,0.51,Asia
+Sudan,1960,0.09,Africa
+Sudan,2015,0.26,Africa
+Sweden,1960,0.5,Europe
+Sweden,2015,0.86,Europe
+Switzerland,1960,0.49,Europe
+Switzerland,2015,0.8,Europe
+Syria,1960,0.19,Asia
+Syria,2015,0.43,Asia
+Taiwan,1960,0.3,Asia
+Taiwan,2015,0.82,Asia
+Tajikistan,2015,0.44,Asia
+Tanzania,1960,0.1,Africa
+Tanzania,2015,0.29,Africa
+Thailand,1960,0.22,Asia
+Thailand,2015,0.51,Asia
+Togo,1960,0.09,Africa
+Togo,2015,0.27,Africa
+Trinidad and Tobago,1960,0.38,North America
+Trinidad and Tobago,2015,0.54,North America
+Tunisia,1960,0.16,Africa
+Tunisia,2015,0.48,Africa
+Turkey,1960,0.2,Asia
+Turkey,2015,0.55,Asia
+Uganda,1960,0.13,Africa
+Uganda,2015,0.28,Africa
+Ukraine,2015,0.56,Europe
+United Arab Emirates,1960,0.18,Asia
+United Arab Emirates,2015,0.59,Asia
+United Kingdom,1960,0.5,Europe
+United Kingdom,2015,0.76,Europe
+United States,1960,0.51,North America
+United States,2015,0.78,North America
+Uruguay,1960,0.39,South America
+Uruguay,2015,0.66,South America
+Uzbekistan,2015,0.51,Asia
+Venezuela,1960,0.3,South America
+Venezuela,2015,0.56,South America
+Vietnam,1960,0.15,Asia
+Vietnam,2015,0.48,Asia
+Yemen,2015,0.3,Asia
+Zambia,1960,0.15,Africa
+Zambia,2015,0.31,Africa
+Zimbabwe,1960,0.17,Africa
+Zimbabwe,2015,0.29,Africa
