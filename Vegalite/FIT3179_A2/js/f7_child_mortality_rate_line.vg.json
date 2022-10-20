@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/ocha0014/FIT3179/main/Vegalite/FIT3179_A2/upload_data/new_mortality.csv"},
+    "width":300,
+    "height":400,
+    "title":"Child Mortality Rate by Continents 1960 - 2020",
+    "transform": [
+        {"filter": "datum.Continent != ''"},
+        {"filter": "datum.Rate > 0"}],
+    "params": [
+        {
+            "name": "cont_highlight",
+            "select":{"type": "point","fields": ["Continent"]},
+            "bind":"legend"
+        }
+    ],
+    "mark": {
+      "type": "trail"
+    },
+    "encoding": {
+        "x": {
+            "field": "Year",
+            "type": "ordinal",
+            "scale": {"padding": 0.5}
+          },
+      "y": {"aggregate":"mean", "field": "Rate", "type": "quantitative","title":"Average Child Mortality Rate(%)"},
+      "size":{"aggregate":"mean","field":"HealthExp","type": "quantitative",
+              "scale":{
+                "type": "threshold",
+                "domain":[150,250,500,750,1000,1250,1500,1750,2000,2500,3000],
+                "range":[1,2,2.5,3,4,5,5.5,6,6.5,7,7.3,7.6,8]
+              },
+            "legend":null},
+      "color": {"field": "Continent", "type": "nominal",
+        "scale": {
+            "domain": [
+                "North America",
+                "South America",
+                "Europe",
+                "Africa",
+                "Asia",
+                "Oceania"
+            ],
+            "range": [
+                "#1b9e77",
+                "#d95f02",
+                "#7570b3",
+                "#e7298a",
+                "#66a61e",
+                "#e6ab02"
+            ] 
+        }},
+        "opacity": {
+            "condition":{"param":"cont_highlight","value":1.0},
+            "value": 0.1
+        },
+      "tooltip":[
+        {"field": "Continent", "type": "nominal"},
+        {"aggregate":"mean", "field": "Rate", "type": "quantitative","title":"Avg Mortality Rate(%)","format":".2f"},
+        {"aggregate":"mean","field":"HealthExp","type": "quantitative","title":"Health Expenditure (USD)","format":".2f"},
+        {"field":"Year"}
+      ]
+    }
+  }

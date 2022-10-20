@@ -1,0 +1,212 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A population pyramid for the US in 2000.",
+  "data": { "url": "https://raw.githubusercontent.com/ocha0014/FIT3179/main/Vegalite/FIT3179_A2/data/gender_inequality_final.csv"},
+  "transform": [
+    {"calculate": "datum.Gender == 2 ? 'Female' : 'Male'", "as": "gender"},
+    {"filter":"datum.EmployabilityRatio > 0"}
+  ],
+  "spacing": 40,
+  "vconcat":[
+    {
+      "title":"Employability Rate by Gender, Before 2000",
+      "hconcat": [
+        {"transform": [
+          {"filter":"datum.Period == 'B' "},
+          {"filter": {"field": "gender", "equal": "Female"}
+      }],
+    "title": "Female",
+    "encoding": {
+      "y": {
+        "field": "Continent",  "sort": "ascending","axis": null
+      },
+      "x": {
+        "aggregate": "sum", "field": "EmployabilityRatio",
+        "title": "Employed Population (%)",
+        "axis": {"format": "s"},
+        "sort": "descending"
+      },
+      "color": {
+        "field": "gender",
+        "scale": {"range": ["#c2a5cf", "#a6dba0"]},
+        "legend": null
+      },
+      "tooltip":[
+        {"field": "Continent", "type": "nominal"},
+        {"field":"gender","type": "nominal","title":"Gender"},
+        {"field":"EmployabilityRatio", "type": "quantitative", "title":"Employability Ratio", "format":".2f"}
+      ]
+    },
+    "layer": [
+      {
+          "mark": "bar"},
+      {
+          "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "dx":-3
+              
+            },
+            "encoding": {
+              "text": {"field": "EmployabilityRatio", "type": "quantitative","format":".2f"}
+            }
+      }]
+  }, 
+  {
+    "width": 20,
+    "view": {"stroke": null},
+    "mark": {
+      "type": "text",
+      "align": "center"
+    },
+    "encoding": {
+      "y": {"field": "Continent", "type": "ordinal", "axis": null},
+      "text": {"field": "Continent", "type": "ordinal"}
+    }
+  }, 
+  {
+    "transform": [
+      {"filter":"datum.Period == 'B' "},
+      {"filter": {"field": "gender", "equal": "Male"}
+    }],
+    "title": "Male",
+    "encoding": {
+      "y": {
+        "field": "Continent", "title": null,
+         "sort": "ascending","axis": null
+      },
+      "x": {
+        "aggregate": "sum", "field": "EmployabilityRatio",
+        "title": "Employed Population (%)",
+        "axis": {"format": "s"}
+      },
+      "color": {
+        "field": "gender",
+        "legend": null
+      },
+      "tooltip":[
+        {"field": "Continent", "type": "nominal"},
+        {"field":"gender","type": "nominal","title":"Gender"},
+        {"field":"EmployabilityRatio", "type": "quantitative", "title":"Employability Ratio", "format":".2f"}
+      ]
+    },
+    "layer": [
+      {
+          "mark": "bar"},
+      {
+          "mark": {
+              "type": "text",
+              "align": "left",
+              "baseline": "middle",
+              "dx": 3
+              
+            },
+            "encoding": {
+              "text": {"field": "EmployabilityRatio", "type": "quantitative","format":".2f"}
+            }
+      }]
+  }]},
+    {
+       "title":"Employability Rate by Gender, After 2000",
+       "hconcat": [{
+    "transform": [
+      {"filter":"datum.Period == 'A' "},
+      {"filter": {"field": "gender", "equal": "Female"}
+    }],
+    "title": "Female",
+    "encoding": {
+      "y": {
+        "field": "Continent", "sort": "ascending","axis":null
+      },
+      "x": {
+        "aggregate": "sum", "field": "EmployabilityRatio",
+        "title": "Employed Population (%)",
+        "axis": {"format": "s"},
+        "sort": "descending"},
+      "color": {
+        "field": "gender",
+        "scale": {"range": ["#c2a5cf", "#a6dba0"]},
+        "legend": null
+      },
+      "tooltip":[
+        {"field": "Continent", "type": "nominal"},
+        {"field":"gender","type": "nominal","title":"Gender"},
+        {"field":"EmployabilityRatio", "type": "quantitative", "title":"Employability Ratio", "format":".2f"}
+      ]
+    },
+    "layer": [
+      {
+          "mark": "bar"},
+      {
+          "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "dx": -3
+              
+            },
+            "encoding": {
+              "text": {"field": "EmployabilityRatio", "type": "quantitative","format":".2f"}
+            }
+      }]
+  }, 
+  {
+    "width": 20,
+    "view": {"stroke": null},
+    "mark": {
+      "type": "text",
+      "align": "center"
+    },
+    "encoding": {
+      "y": {"field": "Continent", "type": "ordinal", "axis": null},
+      "text": {"field": "Continent", "type": "ordinal"}
+    }
+  }, 
+  {
+    "transform": [
+      {"filter":"datum.Period == 'A' "},
+      {"filter": {"field": "gender", "equal": "Male"}
+    }],
+    "title": "Male",
+    "encoding": {
+      "y": {
+        "field": "Continent", "title": null,
+        "sort": "ascending","axis":null
+      },
+      "x": {
+        "aggregate": "sum", "field": "EmployabilityRatio",
+        "title": "Employed Population (%)",
+        "axis": {"format": "s"}
+      },
+      "color": {
+        "field": "gender",
+        "legend": null
+      },
+      "tooltip":[
+        {"field": "Continent", "type": "nominal"},
+        {"field":"gender","type": "nominal","title":"Gender"},
+        {"field":"EmployabilityRatio", "type": "quantitative", "title":"Employability Ratio", "format":".2f"}]
+    },
+    "layer": [
+      {
+          "mark": "bar"},
+      {
+          "mark": {
+              "type": "text",
+              "align": "left",
+              "baseline": "middle",
+              "dx": 3
+              
+            },
+            "encoding": {
+              "text": {"field": "EmployabilityRatio", "type": "quantitative","format":".2f"}
+            }
+      }]
+  }]}],
+
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"grid": false}
+  }
+}

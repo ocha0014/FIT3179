@@ -1,0 +1,137 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width":500,
+    "height":400,
+    "title":"Life Expectancy vs Gross Domestic Product (GDP) per Capita ",
+    "params": [
+        {
+            "name":"Year_selection",
+            "value":2018,
+            "bind":{
+                "input":"range",
+                "min":1950,
+                "max": 2018,
+                "step": 1,
+                "name": "Year: "
+            }
+        }
+    ],
+    "data":{
+        "url": "https://raw.githubusercontent.com/ocha0014/FIT3179/main/Vegalite/FIT3179_A2/data/life_expectancy_final.csv"
+    },
+    "transform": [
+        {"filter": "datum.LifeExpectancy >0"},
+        {"filter": "datum.GDPPerCapita >0"},
+        {"filter":"datum.Year == Year_selection"}
+    ],
+    "encoding": {
+        "x":{
+            "field":"GDPPerCapita",
+            "type":"quantitative",
+            "title":"Gross Domestic Product(GDP) per capita",
+            "axis":{"values": [0, 500, 5000, 50000,500000]},
+            "scale":{"type": "log","domain":[30,500000]}
+        },
+        "y":{
+            "field":"LifeExpectancy",
+            "type":"quantitative",
+            "title":"Life Expectancy (Year)",
+            "axis":{"tickCount":5},
+            "scale":{"domain":[0,100]}
+        }
+    },
+    "layer":[
+        {
+            "params": [
+                {
+                    "name": "cont_highlight",
+                    "select":{"type": "point","fields": ["Continent"]},
+                    "bind":"legend"
+                },
+                {
+                    "name": "paintbrush",
+                    "select": {"type": "point", "on": "mouseover", "nearest": true}
+                }
+            ],
+            "mark":"circle",
+            "encoding": {
+                "size":{
+                    "field":"PopulationEstimates",
+                    "title":"Population Estimates",
+                    "type":"quantitative",
+                    "scale": {
+                        "type": "threshold",
+                        "domain": [10000000, 50000000, 100000000,150000000,200000000],
+                        "range": [100,300,600,900,1200,1700]
+                    },
+                    "legend": {"format": ".1s"}
+                    
+                },
+                "color":{
+                    "field":"Continent",
+                    "type":"nominal",
+                    "scale": {
+                        "domain": [
+                        "North America",
+                        "South America",
+                        "Europe",
+                        "Africa",
+                        "Asia",
+                        "Oceania"
+                        ],
+                        "range": 
+                        [
+                            "#1b9e77",
+                            "#d95f02",
+                            "#7570b3",
+                            "#e7298a",
+                            "#66a61e",
+                            "#e6ab02"
+                        ] 
+                    }
+                },
+                "opacity": {
+                    "condition":{"param":"cont_highlight","value":0.7},
+                    "value": 0.1
+                },
+                "strokeWidth":{
+                    "condition": {"param": "paintbrush", "value": 1.5},
+                    "value": 0.5
+                },
+                "stroke":{
+                    "condition": {"param": "paintbrush", "value": "black"},
+                    "value":"#ddd"
+                },
+                "tooltip":[
+                    {"field":"Entity","type":"nominal","title":"Country"},
+                    {"field":"LifeExpectancy","type":"quantitative","title":"Life Expectancy","format":".2f"},
+                    {"field":"GDPPerCapita","type":"quantitative","title":"GDP Per Capita","format":".2f"},
+                    {"field":"PopulationEstimates","type":"quantitative","title":"Population Estimates"},
+                    {"field":"Continent","type":"nominal"}
+                ]
+            }
+        },
+        {
+            "mark":{
+                "type": "text",
+                "align":"right",
+                "baseline":"middle",
+                "dx":36,
+                "dy":12,
+                "fontSize":11.5,
+                "fontStyle":"italic"
+            },
+            "encoding": {
+                "text": {"field": "Entity", "type": "nominal"},
+                "color": {"value": "black"},
+                "opacity":{
+                    "condition":{
+                        "test": "datum['Entity'] == 'China' || datum['Entity'] == 'Equatorial Guinea' || datum['Entity'] == 'Central African Republic'  ||  datum['Entity'] == 'Japan'",
+                        "value":1
+                    },
+                    "value":0
+                }
+            }
+        }
+    ]
+}

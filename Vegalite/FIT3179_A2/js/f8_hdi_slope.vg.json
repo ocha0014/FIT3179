@@ -1,0 +1,64 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/ocha0014/FIT3179/main/Vegalite/FIT3179_A2/upload_data/new_hdi.csv"},
+    "mark": {"type": "line","point":true},
+    "title":"Historical Index of Human Development, 1870 to 2015",
+    "width": 350,
+    "height": 400,
+    "spacing":50,
+    "transform": [
+        {"filter": "datum.Continent != '' "},
+        {"filter": "datum.HDI != '' "}],
+    "params": [
+        {
+            "name": "cont_highlight",
+            "select":{"type": "point","fields": ["Continent"]},
+            "bind":"legend"
+        }
+    ],
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "ordinal",
+        "scale": {"padding": 0.5}
+      },
+      "y": {
+        "aggregate": "median",
+        "field": "HDI",
+        "type": "quantitative",
+        "title":"Human Development Index"
+      },
+      "color": {"field": "Continent", "type": "nominal",
+        "scale": {
+            "domain": [
+                "North America",
+                "South America",
+                "Europe",
+                "Africa",
+                "Asia",
+                "Oceania"
+            ],
+            "range": [
+                "#1b9e77",
+                "#d95f02",
+                "#7570b3",
+                "#e7298a",
+                "#66a61e",
+                "#e6ab02"
+            ] 
+        }},
+        "opacity": {
+            "condition":{"param":"cont_highlight","value":0.7},
+            "value": 0.1
+        },
+        "tooltip":[
+            {"field":"Continent", "type": "nominal"},
+            {"field":"Year", "type": "ordinal"},
+            {"aggregate": "median",
+            "field": "HDI",
+            "type": "quantitative",
+            "title":"HDI"}
+        ]
+    }
+  }
+  

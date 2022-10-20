@@ -1,0 +1,38 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width":400,
+    "height":200,
+    "title": "Total Education Expenditure (%) of GDP, by Period and Continents",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ocha0014/FIT3179/main/Vegalite/FIT3179_A2/upload_data/government-expenditure-on-tertiary-education-by-continent-pie.csv"},
+    "params":[{
+        "name": "period_highlight",
+        "select":{"type": "point","fields": ["Period"]},
+        "bind":"legend"
+    }],
+    "mark":"bar",
+    "encoding": {
+      "y": {"field": "Expenditure", "type": "quantitative","title":"Total Education Expenditure (%)"},
+      "x": {"field": "Continent", "type": "ordinal"},
+     "xOffset": {"field": "Period"},
+     "opacity": {
+        "condition":{"param":"period_highlight","value":0.99},
+        "value": 0.5
+    },
+    "color": {
+        "field": "Period",
+        "scale":{
+            "domain":["B","BTW","After"],
+            "range":["#e0ecf4","#9ebcda","#8856a7"]
+        },
+        "legend": {
+            "labelExpr": "datum.label == 'B' ? '1998 - 2004' : datum.label == 'BTW' ? 'Between 2005-2010' :datum.label== 'After' ? '2011 - 2015' : 'P' "
+          },
+          "title": "Period"
+        },
+        "tooltip":[
+            {"field":"Continent","type": "nominal"},
+            {"field":"Expenditure","type": "quantitative","title":"Education Expenditure","format":".2f"}]
+    }
+  }
+  
