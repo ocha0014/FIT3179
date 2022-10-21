@@ -6,6 +6,12 @@ h1 {
     font-weight: 900;
 }
 
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
 
 body {
     background-color: lightgray;
