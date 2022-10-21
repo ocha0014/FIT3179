@@ -128,7 +128,10 @@
                         "domain":[5,10,15,20,25,30],
                         "range":["#ffffd9","#fcc5c0","#fa9fb5","#f768a1","#dd3497","#7a0177","#49006a"]
                     },
-                    "legend": {"format": ".2s"}
+                    "legend": {
+                        "format": ".2s",
+                        "orient": "bottom"
+                    }
                 },
                 "strokeWidth":{
                     "condition": {"param": "paintbrush", "value": 1.0},
