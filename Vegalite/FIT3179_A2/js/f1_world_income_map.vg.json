@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title":"World Income Groups (1987 - 2021)",
-    "width":600,
+    "width":700,
     "height":400,
     "params": [
         {
@@ -126,6 +126,9 @@
                     "scale":{
                         "domain":["null","Low income","Lower-middle income","Upper-middle income","High income"],
                         "range":["#ddd","#7b3294","#c2a5cf","#a6dba0","#008837"]
+                    },
+                    "legend":{
+                        "orient": "bottom"
                     }
                 },
                 "strokeWidth":{
